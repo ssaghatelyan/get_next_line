@@ -1,5 +1,4 @@
 # get_next_line
-
 *This project has been created as part of the 42 curriculum by ssaghate.*
 
 ---
@@ -44,30 +43,7 @@ Each call to `get_next_line()` returns:
 
 ## Instructions
 
-### Compilation
-
-Compile using the provided Makefile with the flags:
-
-```
--Wall -Wextra -Werror
-```
-
-To compile:
-
-```
-make
-```
-
-### Makefile Rules
-
-- `make` or `make all`
-- `make clean`
-- `make fclean`
-- `make re`
-
----
-
-## Usage Example
+### Usage Example:
 
 ```c
 #include <fcntl.h>
@@ -93,13 +69,12 @@ int main(void)
 }
 ```
 
-Compile example:
+### Compilation:
+Compile manually without a Makefile:
 
 ```
-cc -Wall -Wextra -Werror main.c get_next_line.c get_next_line_utils.c
+cc -Wall -Wextra -Werror main.c get_next_line.c get_next_line_utils.c -o gnl_test
 ```
-
----
 
 ## Algorithm Explanation & Justification
 
