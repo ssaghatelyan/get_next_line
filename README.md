@@ -131,4 +131,3 @@ Each byte is processed only once, making the solution efficient in both time and
 - google search resources
 - peer on the right peer on the left and someone smart in the building
 - AI tools were used only for reviewing code for potential issues.
-- AI was used to fix the files that had too much norminette errors also for README
